@@ -9,29 +9,26 @@
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 대각선 그라데이션 배경 (보라-파랑) */
-    min-height: 100vh; /* 최소 높이를 화면 전체로 설정 */
+    min-height: 100vh;
     display: flex;
-    align-items: center; /* 수직 중앙 정렬 */
-    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center;
+    justify-content: center;
 }
 
 /* 메인 컨테이너 카드 스타일 - 흰색 배경의 둥근 모서리 카드 */
 .container {
     background: white;
     border-radius: 20px; /* 둥근 모서리 적용 */
-    padding: 32px; /* 내부 여백 */
+    padding: 40px; /* 내부 여백 */
     box-shadow: 0 20px 40px #000000; /* 부드러운 그림자 효과 */
-    max-width: 500px; /* 최대 너비 제한 */
-    width: 90%; /* 반응형을 위한 상대적 너비 */
+    width: 50%; /* 반응형을 위한 상대적 너비 */
     text-align: center; /* 텍스트 중앙 정렬 */
 }
 
 /* 페이지 제목 스타일 */
 .container h1 {
-    color: #333; /* 진한 회색 텍스트 */
-    margin-bottom: 24px; /* 제목과 리스트 사이 간격 */
-    font-size: 32px; /* 큰 폰트 크기 */
-    font-weight: 600; /* 세미볼드 글꼴 굵기 */
+    margin-bottom: 20px; /* 제목과 리스트 사이 간격 */
+    font-size: 32px;
 }
 
 /* 링크 목록 레이아웃 설정 */
